@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <title>About_Us</title>
+</head>
+<body>
+    <section id="sub-header">
+        <div class="home-inner">
+            <nav>
+                <img src="./eduford_img/logo.png" alt="logo">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="course.html">course</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>About Us</h1>
+            </div>
+        </div>
+    </section>
+    <!-- ============== Contact page =============== -->
+    <section id="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.051178695067!2d92.00361871441403!3d21.42723327943257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adc76bf56d95a1%3A0x86fed97998e0866d!2sLink%20road%2C%20Cox&#39;s%20Bazar!5e0!3m2!1sen!2sbd!4v1670172492880!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section id="contact-form">
+        <div class="contact-col">
+            <div class="cont-in">
+                <div class="icon">
+                    <i class="fa fa-home"></i>
+                </div>
+                <div class="desc">
+                    <h4>Road No:6 Block:4 Tarek  Building</h4>
+                    <p>Link Road,Cox's Bazar</p>
+                </div>
+            </div>
+            <div class="cont-in">
+                <div class="icon">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="desc">
+                    <h4>+8801822381295</h4>
+                    <p>Sunday to Sunday 8 AM to 10 PM</p>
+                </div>
+            </div>
+            <div class="cont-in">
+                <div class="icon">
+                    <i class="fa fa-envelope-o"></i>
+                </div>
+                <div class="desc">
+                    <h4>example@gmail.com</h4>
+                    <p>Email us your query</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-col">
+            <div class="contact-comment">
+                <form>
+                    <input placeholder="Input your name" type="text">
+                    <input placeholder="Input your email" type="email">
+                    <textarea class="text" placeholder="Your Comment" rows="4"></textarea>
+                    <a href="#" class="hero-btn red-btn">POST COMMENT</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ============= Footer =========== -->
+    <section id="footer">
+        <h3>About Us</h3>
+        <p style="font-size: 12px;color: #333;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque cumque soluta omnis praesentium<br> ea sunt velit illo molestias iusto error ducimus vero ut, similique saepe cum hic corrupti.</p>
+        <div class="social-list">
+            <i class="fa fa-facebook" href="www.facebook.com"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube-play"></i>
+        </div>
+        <strong style="margin-bottom: 40px;">Made with <i class="fa fa-heart-o"></i> by Mohammad Tarek</strong>
+    </section>
+    <!-- =========== Javascript file ============= -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>

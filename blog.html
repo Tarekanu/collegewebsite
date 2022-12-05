@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <title>Blog</title>
+</head>
+<body>
+    <section id="sub-header">
+        <div class="home-inner">
+            <nav>
+                <img src="./eduford_img/logo.png" alt="logo">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="course.html">course</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h2>Our Certificate & Online Programs for 2022</h2>
+            </div>
+        </div>
+    </section>
+    <section id="blog-content">
+        <div class="blog-row">
+            <div class="blog-left">
+                <img src="./eduford_img/certificate.jpg" alt="Certificate">
+                <h2>Our Certificate & Online Programs 2022</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, ratione vero expedita natus nam dolorem! Atque voluptate laborum dicta cupiditate architecto. Deserunt ipsam laboriosam neque animi a. Nulla, non perspiciatis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam ratione minima. Animi, repellendus ullam nesciunt ipsam quod minus illum soluta. Deleniti natus odio odit error modi qui ut nostrum quis a, sit nam perferendis atque in, repudiandae dolorum iure expedita vel, magnam aliquam non explicabo vero eaque tempore quisquam! Quisquam blanditiis sint omnis? Adipisci, placeat quisquam obcaecati asperiores sunt, nam possimus, dolore fugit voluptatibus alias architecto maxime. Aut, dolorem. Quam ab ea et debitis, error autem sed quia commodi totam reiciendis asperiores eaque cumque, magnam quis. Fugit, nisi recusandae debitis, eligendi accusamus aliquam veniam expedita quia iste eum repellat?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores possimus sit excepturi libero perspiciatis, praesentium qui. Earum, unde odit? Doloribus rem exercitationem in possimus modi officiis molestias vel laborum nemo laudantium illum, laboriosam architecto unde debitis dignissimos, totam porro facilis eum ipsa! Amet quae obcaecati voluptatibus eum iste magni impedit voluptatum nostrum odio itaque sed dolore, exercitationem tenetur deserunt, totam voluptates assumenda quia cupiditate quos, vero commodi perferendis quis. Necessitatibus enim eum a expedita incidunt, inventore molestiae. Officiis, ut eius.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, veniam excepturi exercitationem iusto assumenda maiores soluta adipisci impedit animi debitis esse consequuntur sunt ab nisi unde fugit, ea mollitia in. Dignissimos, in? Delectus id ab dolore sapiente tempora tempore, eius voluptates doloribus voluptatum commodi recusandae fugiat repellendus, sequi a quas.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque quod quo non distinctio obcaecati? Exercitationem repellendus iure id quidem adipisci quasi, nesciunt dicta expedita porro ullam esse eius odit architecto?</p>
+                <div class="blog-comment">
+                    <form>
+                        <h3>Leave a Comment</h3>
+                        <input placeholder="Input your name" type="text">
+                        <input placeholder="Input your email" type="email">
+                        <textarea placeholder="Your Comment" rows="4"></textarea>
+                        <a href="#" class="hero-btn red-btn">POST COMMENT</a>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Business Analitycs</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>40</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>68</span>
+                </div>
+                <div>
+                    <span>AutoCad</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>30</span>
+                </div>   
+                <div>
+                    <span>Commerce</span>
+                    <span>35</span>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- ============= Footer =========== -->
+    <section id="footer">
+        <h3>About Us</h3>
+        <p style="font-size: 12px;color: #333;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque cumque soluta omnis praesentium<br> ea sunt velit illo molestias iusto error ducimus vero ut, similique saepe cum hic corrupti.</p>
+        <div class="social-list">
+            <i class="fa fa-facebook" href="www.facebook.com"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube-play"></i>
+        </div>
+        <strong style="margin-bottom: 40px;">Made with <i class="fa fa-heart-o"></i> by Mohammad Tarek</strong>
+    </section>
+    <!-- =========== Javascript file ============= -->
+    <script>
+        var navLinks = document.getElementById('navLinks');
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
